@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moje dohrané hry</title>
+    <style>
+        :root {
+            --bg-color: #121212;
+            --card-bg: #1e1e1e;
+            --text-main: #ffffff;
+            --text-muted: #a0a0a0;
+            --accent: #00d2ff;
+            --accent-hover: #0096b8;
+            --rating-bg: #2b2b2b;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            padding: 40px 20px;
+            line-height: 1.6;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--accent);
+        }
+
+        .search-container {
+            max-width: 600px;
+            margin: 0 auto 40px auto;
+            position: relative;
+        }
+
+        #search-input {
+            width: 100%;
+            padding: 15px 20px;
+            background-color: var(--card-bg);
+            border: 2px solid #333;
+            border-radius: 30px;
+            color: white;
+            font-size: 1.1rem;
+            outline: none;
+            transition: border-color 0.3s ease;
+        }
+
+        #search-input:focus {
+            border-color: var(--accent);
+        }
+
+        .search-count {
+            text-align: center;
+            margin-top: -30px;
+            margin-bottom: 20px;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+        
+        .games-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 25px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .game-card {
+            background-color: var(--card-bg);
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            position: relative;
+            overflow: hidden;
+            border-top: 4px solid var(--accent);
+        }
+
+        .game-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 210, 255, 0.15);
+        }
+
+        .order-badge {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background-color: var(--accent);
+            color: #000;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.85rem;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+        }
+
+        .order-badge span {
+            display: inline-block;
+        }
+
+        .game-title {
+            font-size: 1.5rem;
+            margin-bottom: 5px;
+            padding-right: 30px;
+        }
+
+        .game-year {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            margin-bottom: 20px;
+        }
+
+        .game-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #333;
+        }
+
+        .date-completed {
+            font-size: 0.95rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .rating {
+            background-color: var(--rating-bg);
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .rating-star {
+            color: #ffd700;
+        }
+
+        .action-links {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .btn {
+            flex: 1;
+            text-align: center;
+            padding: 10px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 0.9rem;
+            transition: background-color 0.2s ease, color 0.2s ease;
+        }
+
+        .btn-link {
+            background-color: rgba(255, 255, 255, 0.05);
+            color: var(--text-main);
+            border: 1px solid #444;
+        }
+
+        .btn-link:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .btn-vod {
+            background-color: var(--accent);
+            color: #000;
+        }
+
+        .btn-vod:hover {
+            background-color: var(--accent-hover);
+        }
+
+        @media (max-width: 600px) {
+            .games-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Dohrané hry</h1>
+
+    <div class="search-container">
+        <input type="text" id="search-input" placeholder="Hledej hru podle názvu nebo roku...">
+    </div>
+    <div id="search-count" class="search-count"></div>
+    
+    <!-- Sem se automaticky načtou hry ze souboru data.js -->
+    <div class="games-grid" id="games-container"></div>
+
+    <!-- Propojení s datovým souborem -->
+    <script src="data.js"></script>
+    
+    <!-- Skript, který vezme data a vytvoří z nich karty na stránce -->
+    <script>
+        const container = document.getElementById('games-container');
+        const searchInput = document.getElementById('search-input');
+        const searchCount = document.getElementById('search-count');
+
+        // Funkce pro vykreslení karet
+        function renderGames(games) {
+            container.innerHTML = ''; // Vyčistit mřížku
+            
+            games.forEach(hra => {
+                let vodButton = '';
+                if (hra.odkazZaznam) {
+                    vodButton = `<a href="${hra.odkazZaznam}" target="_blank" class="btn btn-vod">▶ Záznam</a>`;
+                }
+
+                const card = document.createElement('div');
+                card.className = 'game-card';
+                card.innerHTML = `
+                    <div class="order-badge"><span>${hra.poradi}</span></div>
+                    <h2 class="game-title">${hra.nazev}</h2>
+                    <div class="game-year">Rok vydání: ${hra.rok}</div>
+                    
+                    <div class="game-info">
+                        <div class="date-completed">🗓️ ${hra.dokonceno}</div>
+                        <div class="rating">
+                            <span class="rating-star">★</span> ${hra.hodnoceni} / 10
+                        </div>
+                    </div>
+
+                    <div class="action-links">
+                        <a href="${hra.odkazHra}" target="_blank" class="btn btn-link">Karta hry</a>
+                        ${vodButton}
+                    </div>
+                `;
+                container.appendChild(card);
+            });
+
+            // Aktualizace počítadla
+            searchCount.textContent = `Zobrazeno her: ${games.length}`;
+        }
+
+        // Funkce pro vyhledávání
+        searchInput.addEventListener('input', (e) => {
+            const term = e.target.value.toLowerCase();
+            
+            const filteredGames = hracky_data.filter(hra => {
+                return (
+                    hra.nazev.toLowerCase().includes(term) || 
+                    hra.rok.toString().includes(term)
+                );
+            });
+
+            renderGames(filteredGames);
+        });
+
+        // Prvotní vykreslení všech her
+        renderGames(hracky_data);
+    </script>
+</body>
+</html>
