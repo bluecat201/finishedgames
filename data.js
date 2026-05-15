@@ -1068,7 +1068,7 @@ const hracky_data = [
     "hodnoceni": 8,
     "dokonceno": "30.01.2026",
     "odkazHra": "https://store.steampowered.com/app/50130/Mafia_II_Classic/",
-    "odkazZaznam": null
+    "odkazZaznam": "https://www.youtube.com/playlist?list=PLLY5Lvjm7BI-382lzJlC4ci53jkMTve72"
   },
   {
     "poradi": 116,
@@ -1077,7 +1077,7 @@ const hracky_data = [
     "hodnoceni": 5,
     "dokonceno": "22.02.2026",
     "odkazHra": "https://store.steampowered.com/app/3817090/Vigil/",
-    "odkazZaznam": null
+    "odkazZaznam": "https://www.youtube.com/watch?v=VRM1wPo8kzM"
   },
   {
     "poradi": 117,
@@ -1086,7 +1086,7 @@ const hracky_data = [
     "hodnoceni": 8,
     "dokonceno": "22.02.2026",
     "odkazHra": "https://store.steampowered.com/app/3017580/Paragnosia/",
-    "odkazZaznam": null
+    "odkazZaznam": "https://www.youtube.com/watch?v=VRM1wPo8kzM"
   },
   {
     "poradi": 118,
