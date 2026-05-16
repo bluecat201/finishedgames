@@ -1095,7 +1095,7 @@ const hracky_data = [
     "hodnoceni": 8.5,
     "dokonceno": "11.05.2026",
     "odkazHra": "https://store.steampowered.com/app/2291850/Underground_Blossom/?curator_clanid=33593611",
-    "odkazZaznam": null
+    "odkazZaznam": "https://youtu.be/TM_uHoyOIi4?is=8sE5uqIGeZX0ySma"
   },
   {
     "poradi": 119,
