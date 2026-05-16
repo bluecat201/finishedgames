@@ -1005,7 +1005,7 @@ const hracky_data = [
     "hodnoceni": 9,
     "dokonceno": "08.09.2025",
     "odkazHra": "https://store.steampowered.com/app/883710/Resident_Evil_2/",
-    "odkazZaznam": null
+    "odkazZaznam": "https://www.youtube.com/playlist?list=PLLY5Lvjm7BI95wT84uqd3DLIslBBS1Dlx"
   },
   {
     "poradi": 109,
@@ -1014,7 +1014,7 @@ const hracky_data = [
     "hodnoceni": 7,
     "dokonceno": "09.09.2025",
     "odkazHra": "https://store.steampowered.com/app/2273550/Postmouse/",
-    "odkazZaznam": null
+    "odkazZaznam": "https://youtu.be/Ceydnp7-66w"
   },
   {
     "poradi": 110,
@@ -1023,7 +1023,7 @@ const hracky_data = [
     "hodnoceni": 7,
     "dokonceno": "16.09.2025",
     "odkazHra": "https://store.steampowered.com/app/952060/Resident_Evil_3/",
-    "odkazZaznam": null
+    "odkazZaznam": "https://www.youtube.com/playlist?list=PLLY5Lvjm7BI-yDvLYFOGZdiv4oBpkNEtB"
   },
   {
     "poradi": 111,
