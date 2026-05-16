@@ -1032,7 +1032,7 @@ const hracky_data = [
     "hodnoceni": 6,
     "dokonceno": "25.10.2025",
     "odkazHra": "https://store.steampowered.com/app/2050650/Resident_Evil_4/",
-    "odkazZaznam": null
+    "odkazZaznam": "https://www.youtube.com/playlist?list=PLLY5Lvjm7BI8MeV_zK15OjriUI3IV1g3s"
   },
   {
     "poradi": 112,
@@ -1041,7 +1041,7 @@ const hracky_data = [
     "hodnoceni": 6,
     "dokonceno": "26.10.2025",
     "odkazHra": "https://store.steampowered.com/app/1196090/Scars_Above/",
-    "odkazZaznam": null
+    "odkazZaznam": "https://www.youtube.com/playlist?list=PLLY5Lvjm7BI-Eb_DzAATaujyoQ9-vICB4"
   },
   {
     "poradi": 113,
@@ -1050,7 +1050,7 @@ const hracky_data = [
     "hodnoceni": 7,
     "dokonceno": "31.10.2025",
     "odkazHra": "https://store.steampowered.com/app/418370/Resident_Evil_7_Biohazard/",
-    "odkazZaznam": null
+    "odkazZaznam": "https://www.youtube.com/playlist?list=PLLY5Lvjm7BI-sMwvZofYO5yF855pEAqJj"
   },
   {
     "poradi": 114,
@@ -1059,7 +1059,7 @@ const hracky_data = [
     "hodnoceni": 7,
     "dokonceno": "30.11.2025",
     "odkazHra": "https://store.steampowered.com/app/1196590/Resident_Evil_Village/",
-    "odkazZaznam": null
+    "odkazZaznam": "https://www.youtube.com/playlist?list=PLLY5Lvjm7BI84jp96g6urXaqMbkPWv6r1"
   },
   {
     "poradi": 115,
