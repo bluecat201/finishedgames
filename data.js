@@ -1104,6 +1104,6 @@ const hracky_data = [
     "hodnoceni": 7.5,
     "dokonceno": "12.05.2026",
     "odkazHra": "https://store.steampowered.com/app/1145960/The_White_Door/?curator_clanid=33593611",
-    "odkazZaznam": null
+    "odkazZaznam": "https://youtu.be/liA_4zMs59s?is=KNzUbUJaqWzj3vrg"
   }
 ]
