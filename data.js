@@ -1105,5 +1105,32 @@ const hracky_data = [
     "dokonceno": "12.05.2026",
     "odkazHra": "https://store.steampowered.com/app/1145960/The_White_Door/?curator_clanid=33593611",
     "odkazZaznam": "https://youtu.be/liA_4zMs59s?is=KNzUbUJaqWzj3vrg"
+  },
+  {
+    "poradi": 120,
+    "nazev": "Cube Escape: Collection",
+    "rok": 2020,
+    "hodnoceni": 7,
+    "dokonceno": "16.05.2026",
+    "odkazHra": "https://store.steampowered.com/app/1292940/Cube_Escape_Collection/",
+    "odkazZaznam": "https://www.youtube.com/playlist?list=PLLY5Lvjm7BI__p_cWuEYpdqbvRSvh-PxF"
+  },
+  {
+    "poradi": 121,
+    "nazev": "Rusty Lake: Roots",
+    "rok": 2016,
+    "hodnoceni": 8,
+    "dokonceno": "24.05.2026",
+    "odkazHra": "https://store.steampowered.com/app/532110/Rusty_Lake_Roots/?curator_clanid=33593611",
+    "odkazZaznam": "https://youtu.be/eILNwwWf3wk"
+  },
+  {
+    "poradi": 122,
+    "nazev": "Rusty Lake: Paradise",
+    "rok": 2018,
+    "hodnoceni": 7.5,
+    "dokonceno": "26.05.2026",
+    "odkazHra": "https://store.steampowered.com/app/744190/Rusty_Lake_Paradise/?curator_clanid=33593611",
+    "odkazZaznam": null
   }
 ]
