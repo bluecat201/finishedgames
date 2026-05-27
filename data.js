@@ -1131,6 +1131,15 @@ const hracky_data = [
     "hodnoceni": 7.5,
     "dokonceno": "26.05.2026",
     "odkazHra": "https://store.steampowered.com/app/744190/Rusty_Lake_Paradise/?curator_clanid=33593611",
+    "odkazZaznam": "https://youtu.be/qJHtVtes2Ns"
+  },
+  {
+    "poradi": 123,
+    "nazev": "Cube Escape: Paradox",
+    "rok": 2018,
+    "hodnoceni": 8.5,
+    "dokonceno": "27.05.2026",
+    "odkazHra": "https://store.steampowered.com/app/909080/Cube_Escape_Paradox/",
     "odkazZaznam": null
   }
 ]
