@@ -1129,7 +1129,7 @@ const hracky_data = [
     "nazev": "Rusty Lake: Paradise",
     "rok": 2018,
     "hodnoceni": 7.5,
-    "dokonceno": "26.05.2026",
+    "dokonceno": "25.05.2026",
     "odkazHra": "https://store.steampowered.com/app/744190/Rusty_Lake_Paradise/?curator_clanid=33593611",
     "odkazZaznam": "https://youtu.be/qJHtVtes2Ns"
   },
@@ -1138,8 +1138,35 @@ const hracky_data = [
     "nazev": "Cube Escape: Paradox",
     "rok": 2018,
     "hodnoceni": 8.5,
-    "dokonceno": "27.05.2026",
+    "dokonceno": "26.05.2026",
     "odkazHra": "https://store.steampowered.com/app/909080/Cube_Escape_Paradox/",
-    "odkazZaznam": null
-  }
+    "odkazZaznam": "https://youtu.be/sfk-2h9IPmo?si=8Mg_B8NEd5j8OV_2"
+  },
+  {
+    "poradi": 124,
+    "nazev": "Samsara Room",
+    "rok": 2020,
+    "hodnoceni": 8,
+    "dokonceno": "27.05.2026",
+    "odkazHra": "https://store.steampowered.com/app/1281800/Samsara_Room/",
+    "odkazZaznam": "https://youtu.be/lnom6zoAGnc?si=_q6tOo60gDFz9qgF"
+  },
+  {
+    "poradi": 125,
+    "nazev": "The Mr. Rabbit Magic Show",
+    "rok": 2025,
+    "hodnoceni": 7,
+    "dokonceno": "27.05.2026",
+    "odkazHra": "https://store.steampowered.com/app/3472550/The_Mr_Rabbit_Magic_Show/?curator_clanid=33593611",
+    "odkazZaznam": "https://youtu.be/lnom6zoAGnc?si=_q6tOo60gDFz9qgF"
+  },
+  {
+    "poradi": 126,
+    "nazev": "Sherlock Holmes: The Devil's Daughter",
+    "rok": 2016,
+    "hodnoceni": 8.5,
+    "dokonceno": "11.06.2026",
+    "odkazHra": "https://store.steampowered.com/app/350640/Sherlock_Holmes_The_Devils_Daughter/",
+    "odkazZaznam": none
+  },
 ]
