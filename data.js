@@ -915,7 +915,7 @@ const hracky_data = [
     "hodnoceni": 9,
     "dokonceno": "12.04.2025",
     "odkazHra": "https://store.steampowered.com/app/21090/FEAR/",
-    "odkazZaznam": null
+    "odkazZaznam": "https://www.youtube.com/playlist?list=PLLY5Lvjm7BI95RLJyUdAzhQNsAE9Fs8wM"
   },
   {
     "poradi": 101,
