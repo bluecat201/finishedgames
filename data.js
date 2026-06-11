@@ -1167,6 +1167,6 @@ const hracky_data = [
     "hodnoceni": 8.5,
     "dokonceno": "11.06.2026",
     "odkazHra": "https://store.steampowered.com/app/350640/Sherlock_Holmes_The_Devils_Daughter/",
-    "odkazZaznam": none
+    "odkazZaznam": null
   }
 ]
