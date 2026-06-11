@@ -933,7 +933,7 @@ const hracky_data = [
     "hodnoceni": 8,
     "dokonceno": "30.04.2025",
     "odkazHra": "https://store.steampowered.com/app/241260/Sherlock_Holmes_Crimes_and_Punishments/",
-    "odkazZaznam": null
+    "odkazZaznam": "https://www.youtube.com/playlist?list=PLLY5Lvjm7BI87s5lFvlLTC1dmn8XKyH00"
   },
   {
     "poradi": 103,
@@ -942,7 +942,7 @@ const hracky_data = [
     "hodnoceni": 5,
     "dokonceno": "30.04.2025",
     "odkazHra": "https://store.steampowered.com/app/1564950/Two_Legs/",
-    "odkazZaznam": null
+    "odkazZaznam": "https://youtu.be/zf-fMBZLWAU"
   },
   {
     "poradi": "Non-stream",
@@ -969,7 +969,7 @@ const hracky_data = [
     "hodnoceni": 7,
     "dokonceno": "14.06.2025",
     "odkazHra": "https://store.steampowered.com/app/17410/Mirrors_Edge/",
-    "odkazZaznam": null
+    "odkazZaznam": "https://www.youtube.com/playlist?list=PLLY5Lvjm7BI-ofrPsp6cBqkkDMY0tqVrr"
   },
   {
     "poradi": 105,
@@ -978,7 +978,7 @@ const hracky_data = [
     "hodnoceni": 8,
     "dokonceno": "09.07.2025",
     "odkazHra": "https://store.steampowered.com/app/238320/Outlast/",
-    "odkazZaznam": null
+    "odkazZaznam": "https://www.youtube.com/playlist?list=PLLY5Lvjm7BI-AZhb5y4H07Hp3J3N0rYhY"
   },
   {
     "poradi": 106,
