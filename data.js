@@ -987,7 +987,7 @@ const hracky_data = [
     "hodnoceni": 7,
     "dokonceno": "18.08.2025",
     "odkazHra": "https://store.steampowered.com/app/2527500/MiSide/",
-    "odkazZaznam": null
+    "odkazZaznam": "https://www.youtube.com/playlist?list=PLLY5Lvjm7BI8HV6mKScVIladAeI6HM3oo"
   },
   {
     "poradi": 107,
@@ -996,7 +996,7 @@ const hracky_data = [
     "hodnoceni": 9,
     "dokonceno": "28.08.2025",
     "odkazHra": "https://store.steampowered.com/app/999220/Amnesia_Rebirth/",
-    "odkazZaznam": null
+    "odkazZaznam": "https://www.youtube.com/playlist?list=PLLY5Lvjm7BI--0AiwSrYfwaomcFLEvtcN"
   },
   {
     "poradi": 108,
@@ -1167,6 +1167,6 @@ const hracky_data = [
     "hodnoceni": 8.5,
     "dokonceno": "11.06.2026",
     "odkazHra": "https://store.steampowered.com/app/350640/Sherlock_Holmes_The_Devils_Daughter/",
-    "odkazZaznam": null
+    "odkazZaznam": "https://www.youtube.com/playlist?list=PLLY5Lvjm7BI-Ekfz3Z1ADLciN-Q4qoxhS"
   }
 ]
