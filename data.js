@@ -681,7 +681,7 @@ const hracky_data = [
     "hodnoceni": 9,
     "dokonceno": "29.08.2022",
     "odkazHra": "https://store.steampowered.com/app/203160/Tomb_Raider_Game_of_the_Year/?curator_clanid=35801496",
-    "odkazZaznam": null
+    "odkazZaznam": "https://www.youtube.com/playlist?list=PLLY5Lvjm7BI_h8SBRlG1i2xLtNf6zUR0Z"
   },
   {
     "poradi": 77,
@@ -690,7 +690,7 @@ const hracky_data = [
     "hodnoceni": 8,
     "dokonceno": "03.09.2022",
     "odkazHra": "https://store.steampowered.com/app/763250/The_Spectrum_Retreat/",
-    "odkazZaznam": null
+    "odkazZaznam": "https://www.youtube.com/playlist?list=PLLY5Lvjm7BI92c1uJ0NY7WVJGkTSyKj1f"
   },
   {
     "poradi": 78,
